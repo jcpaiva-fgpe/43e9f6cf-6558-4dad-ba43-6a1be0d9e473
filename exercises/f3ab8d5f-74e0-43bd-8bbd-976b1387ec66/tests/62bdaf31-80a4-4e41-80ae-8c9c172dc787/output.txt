@@ -1,0 +1,61 @@
+carretera|poblacion            |
+---------+---------------------+
+C-15     |AGOLLADOLÇ           |
+C-17     |AIGUAFREDA           |
+C-32     |ALMEDA MERCADER      |
+C-61     |ARENYS DE MUNT       |
+C-17     |BARCELONA            |
+B-10     |BARCELONA            |
+B-20     |BARCELONA            |
+C-58     |BARCELONA            |
+B-10     |BARCELONA            |
+C-26     |BERGA                |
+C-16     |BERGA                |
+BV-2127  |BORDALLET (EL)       |
+C-37     |BOSC GRAN (EL)       |
+C-37     |BOSC GRAN (EL)       |
+C-55     |CA N'AMAT            |
+BP-2121  |CAL SISPLAU          |
+C-59     |CALDES DE MONTBUI    |
+BV-1435  |CAN BARRI            |
+C-63     |CASTELLAR DE N''HUG  |
+BV-4031  |CASTELLAR DE N''HUG  |
+B-402    |CASTELLAR DE N''HUG  |
+C-32     |CASTELLDEFELS        |
+C-245    |CASTELLDEFELS        |
+B-20     |CORNELLÀ DE LLOBREGAT|
+C-1412A  |desconocida          |
+C-1413Z  |desconocida          |
+C-58CC   |desconocida          |
+C-17     |desconocida          |
+N-152Z   |desconocida          |
+GI-552   |ALBA DE LISTE        |
+GIV-4082 |ALP                  |
+C-63     |AMER                 |
+N-141E   |ANGLES               |
+C-66     |BANYOLES             |
+N-141E   |BESCANO              |
+N-141D   |CALLDETENES          |
+GIV-6226 |CAMALLERA            |
+C-31     |CASTELL D''ARO       |
+GIV-6043 |CASTELLO D''EMPURIES |
+N-260A   |desconocida          |
+C-14     |AGRAMUNT             |
+C-26     |ALFARRAS             |
+L-510    |ALINS                |
+L-512    |ARTESA DE SEGRE      |
+C-14     |ARTESA DE SEGRE      |
+C-26     |BALAGUER             |
+C-12     |BALAGUER             |
+C-14     |BASSELLA             |
+C-13     |CELLERS              |
+C-13     |CELLERS              |
+C-142B   |desconocida          |
+C-28     |desconocida          |
+TV-7041  |ALCOVER              |
+T-733    |ASCO                 |
+TP-2039  |CATLLAR (EL)         |
+T-721    |CONSTANTI            |
+A-27     |desconocida          |
+T-3231   |desconocida          |
+TV-2035  |desconocida          |
