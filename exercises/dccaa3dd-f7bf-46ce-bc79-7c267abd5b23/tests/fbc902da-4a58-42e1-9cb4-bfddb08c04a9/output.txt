@@ -1,0 +1,8 @@
+nombre           |num_incidencias|
+-----------------+---------------+
+Barcelona        |              5|
+Tarragona        |              3|
+Lleida           |              2|
+Cáceres          |              1|
+Girona           |              1|
+Valencia/València|              1|
