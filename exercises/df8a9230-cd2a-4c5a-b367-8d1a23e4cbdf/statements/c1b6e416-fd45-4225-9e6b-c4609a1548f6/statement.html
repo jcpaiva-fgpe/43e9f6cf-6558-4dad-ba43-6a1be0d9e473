@@ -1,0 +1,13 @@
+<p>Crea una rutina que compruebe que cada nueva incidencia que se crea en la base de datos tiene asignada una provincia. Para ello, se establecen los siguientes casos:</p>
+<ul>
+    <li>* El usuario SÍ le ha asignado un valor a cod_provincia: la rutina no modifica nada.</li>
+    <li>* El usuario NO le ha asignado ningún valor a cod_provincia:</li>
+    <ul>
+        <li>** la rutina deberá comprobar si las dos primeras letras de la carretera en la que ha ocurrido la incidencia coinciden con alguna de las matrículas existentes en la tabla provincias.</li>
+        <ul>
+            <li>*** En caso de coincidencia se le deberá asignar el código de la provincia asociado a dicha matrícula</li>
+            <li>*** En caso de no coincidencia con ninguna de las matrículas, se le asignará directamente el código 30, que es el correspondiente a la provincia de Murcia.</li>
+        </ul>
+    </ul>
+</ul>
+<p></p>
