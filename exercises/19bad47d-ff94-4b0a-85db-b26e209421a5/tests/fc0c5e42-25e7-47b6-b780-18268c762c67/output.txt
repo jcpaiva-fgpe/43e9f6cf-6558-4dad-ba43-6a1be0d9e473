@@ -1,0 +1,4 @@
+nombre  |count|
+--------+-----+
+Asturias|    4|
+Cáceres |    4|
