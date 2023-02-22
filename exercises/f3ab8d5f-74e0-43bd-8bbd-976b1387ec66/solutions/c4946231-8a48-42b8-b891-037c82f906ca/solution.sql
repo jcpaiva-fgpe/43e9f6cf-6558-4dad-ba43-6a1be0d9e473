@@ -1,0 +1,1 @@
+update incidencias set poblacion = 'desconocida' where poblacion is null;
