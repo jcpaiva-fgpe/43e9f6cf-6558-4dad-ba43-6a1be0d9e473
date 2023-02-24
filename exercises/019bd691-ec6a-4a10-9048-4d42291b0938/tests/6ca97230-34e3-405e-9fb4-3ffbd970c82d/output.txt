@@ -1,1 +1,8 @@
-JJ
+ficha|nombre    |anyo_prof|
+-----+----------+---------+
+    2|Juana     |     2018|
+ 2021|InnovaFest|         |
+ 2022|Itinere   |         |
+    3|Itinere   |     2022|
+    3|Juan      |     2020|
+ 2018|Encuentro |     2021|
