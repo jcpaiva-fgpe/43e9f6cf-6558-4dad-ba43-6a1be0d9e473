@@ -1,0 +1,1 @@
+ALTER TABLE products DROP CONSTRAINT ciclista_prof2015;
