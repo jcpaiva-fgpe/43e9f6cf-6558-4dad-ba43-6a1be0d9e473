@@ -35,8 +35,9 @@ INSERT INTO ciclista (ficha,fecha_nac,nombre,pais,anyo_retiro,anyo_prof, pertene
 INSERT INTO ciclista (ficha,fecha_nac,nombre,pais,anyo_retiro,anyo_prof, equipo)
 	VALUES (7,'1999-03-22','Juan','Italia',NULL,2020, 'Itinere');
 
-select ficha, nombre, anyo_prof  from CICLISTA
+select ficha, pais, anyo_prof  from CICLISTA
 union
 select anyo_apar, nombre, anyo_des from equipo
 union
-select ficha , nombre, anyo from pertenece;
+select ficha , nombre, anyo from pertenece
+order by 1,2;
