@@ -23,5 +23,5 @@ CREATE TABLE pertenece (
 	CONSTRAINT pertenece_pk PRIMARY KEY (ficha,nombre,anyo)
 );
 
-ALTER TABLE pertenece ADD CONSTRAINT pertenece_fk FOREIGN KEY (ficha) REFERENCES public.ciclista(ficha);
-ALTER TABLE pertenece ADD CONSTRAINT pertenece_fk_1 FOREIGN KEY (nombre) REFERENCES public.equipo(nombre);
+ALTER TABLE pertenece ADD CONSTRAINT pertenece_fk FOREIGN KEY (ficha) REFERENCES ciclista(ficha);
+ALTER TABLE pertenece ADD CONSTRAINT pertenece_fk_1 FOREIGN KEY (nombre) REFERENCES equipo(nombre);
