@@ -6,7 +6,7 @@ CREATE TABLE ciclista (
 	anyo_retiro integer NULL,
 	anyo_prof integer NOT NULL,
 	CONSTRAINT ciclista_pk PRIMARY KEY (ficha),
-	CONSTRAINT ciclista_check CHECK (anyo_prof >= 2015)
+	CONSTRAINT ciclista_prof2015 CHECK (anyo_prof >= 2015)
 );
 
 CREATE TABLE equipo (
