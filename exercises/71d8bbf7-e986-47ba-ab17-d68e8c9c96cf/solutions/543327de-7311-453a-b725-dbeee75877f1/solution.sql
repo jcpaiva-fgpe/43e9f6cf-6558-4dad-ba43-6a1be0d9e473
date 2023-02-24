@@ -1,1 +1,1 @@
-ALTER TABLE products DROP CONSTRAINT ciclista_prof2015;
+ALTER TABLE ciclista DROP CONSTRAINT ciclista_prof2015;
