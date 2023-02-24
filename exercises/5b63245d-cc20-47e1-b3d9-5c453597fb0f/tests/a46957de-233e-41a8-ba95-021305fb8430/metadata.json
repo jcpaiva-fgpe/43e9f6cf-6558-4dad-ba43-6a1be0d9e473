@@ -1,1 +1,1 @@
-{"id":"a46957de-233e-41a8-ba95-021305fb8430","arguments":[],"weight":"0","visible":false,"input":"input.sql","output":"output.txt","timeout":0,"feedback":[]}
+{"id":"a46957de-233e-41a8-ba95-021305fb8430","arguments":[],"weight":"0","visible":"true","input":"input.sql","output":"output.txt","timeout":"0","feedback":[]}
