@@ -17,7 +17,7 @@ begin
 
 	RETURN NEW;
 END;
-$$
+$$;
 
 CREATE or replace TRIGGER default_province
   BEFORE INSERT
