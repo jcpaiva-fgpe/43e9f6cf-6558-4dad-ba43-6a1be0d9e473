@@ -9,16 +9,19 @@ CREATE TABLE ciclista (
 	CONSTRAINT ciclista_check CHECK (anyo_prof >= 2015)
 );
 
-CREATE TABLE public.equipo (
+CREATE TABLE equipo (
 	nombre varchar(100) NOT NULL,
 	anyo_apar integer NOT NULL,
-	anyo_des integer NOT NULL,
+	anyo_des integer NULL,
 	CONSTRAINT equipo_pk PRIMARY KEY (nombre)
 );
 
-CREATE TABLE public.pertenece (
+CREATE TABLE pertenece (
 	ficha integer NOT NULL,
 	nombre varchar(100) NOT NULL,
 	anyo integer NOT NULL,
 	CONSTRAINT pertenece_pk PRIMARY KEY (ficha,nombre,anyo)
 );
+
+ALTER TABLE pertenece ADD CONSTRAINT pertenece_fk FOREIGN KEY (ficha) REFERENCES public.ciclista(ficha);
+ALTER TABLE pertenece ADD CONSTRAINT pertenece_fk_1 FOREIGN KEY (nombre) REFERENCES public.equipo(nombre);
