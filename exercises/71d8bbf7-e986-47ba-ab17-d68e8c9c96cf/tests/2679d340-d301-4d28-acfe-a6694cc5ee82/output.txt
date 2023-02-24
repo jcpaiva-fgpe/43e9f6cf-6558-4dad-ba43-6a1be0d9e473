@@ -1,0 +1,4 @@
+ficha|fecha_nac |nombre|pais  |anyo_retiro|anyo_prof|
+-----+----------+------+------+-----------+---------+
+    3|1999-03-22|Juan  |Italia|           |     2020|
+    4|1999-03-22|Pepe  |Italia|           |     2010|
