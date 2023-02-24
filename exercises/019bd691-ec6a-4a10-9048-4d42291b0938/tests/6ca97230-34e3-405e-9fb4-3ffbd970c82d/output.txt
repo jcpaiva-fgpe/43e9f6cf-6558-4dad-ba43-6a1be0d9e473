@@ -1,6 +1,6 @@
 ficha|nombre    |anyo_prof|
 -----+----------+---------+
-    2|Juana     |     2018|
+    2|ESPAÑA    |     2018|
  2021|InnovaFest|         |
  2022|Itinere   |         |
     3|Itinere   |     2022|
