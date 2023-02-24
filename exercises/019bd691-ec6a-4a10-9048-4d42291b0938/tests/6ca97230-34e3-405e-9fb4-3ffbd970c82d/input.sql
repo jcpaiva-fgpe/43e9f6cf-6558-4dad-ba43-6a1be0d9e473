@@ -15,11 +15,11 @@ INSERT INTO equipo (nombre,anyo_apar,anyo_des)
 INSERT INTO equipo (nombre,anyo_apar)
 	VALUES ('ImaginaUnaEmpresaDiferenteImaginaUnaEmpresaDiferenteImaginaUnaEmpresaDiferenteImaginaUnaEmpresaDiferente',2019);
 INSERT INTO equipo (nombre,anyo_apar)
-	VALUES ('InnovaFest',21);
+	VALUES ('InnovaFest',2021);
 INSERT INTO equipo (nombre)
 	VALUES ('ImaginaUnaEmpresaDiferente');
 INSERT INTO equipo (nombre,anyo_apar)
-	VALUES ('InnovaFest',20);
+	VALUES ('InnovaFest',2022);
 INSERT INTO pertenece (ficha,nombre)
 	VALUES (1,'Itinere');
 INSERT INTO pertenece (ficha,nombre,anyo)
@@ -34,4 +34,9 @@ INSERT INTO ciclista (ficha,fecha_nac,nombre,pais,anyo_retiro,anyo_prof, pertene
 	VALUES (6,'1999-03-22','Juan','Italia',NULL,2020, 2018);
 INSERT INTO ciclista (ficha,fecha_nac,nombre,pais,anyo_retiro,anyo_prof, equipo)
 	VALUES (7,'1999-03-22','Juan','Italia',NULL,2020, 'Itinere');
-select c.ficha, p.*, e.nombre from ciclista c outer join pertenece p using (ficha) outer join equipo e using(nombre);
+
+select ficha, nombre, anyo_prof  from CICLISTA
+union
+select anyo_apar, nombre, anyo_des from equipo
+union
+select ficha , nombre, anyo from pertenece;
