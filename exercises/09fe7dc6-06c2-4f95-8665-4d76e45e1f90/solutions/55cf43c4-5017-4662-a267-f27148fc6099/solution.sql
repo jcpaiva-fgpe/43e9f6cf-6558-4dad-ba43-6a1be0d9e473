@@ -3,7 +3,7 @@ INSERT INTO public.incidencias (id,carretera,causa,fechahora,cod_nivel,pk_inicia
 	300
 	, 'A-70'
 	, 'RETENCIÓN / CONGESTIÓN'
-	, '2023-02-21'
+	, '2023-02-21 19:03:00'
 	, (select n.codigo from niveles n where n.nivel = 'AMARILLO')
 	,33
 	,28
