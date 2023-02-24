@@ -12,4 +12,4 @@ INSERT INTO equipo (nombre,anyo_apar,anyo_des, director, activo)
 	VALUES ('Encuentro4',2018,2021, 'Mari Cruz Sanz', 'SI');
 INSERT INTO equipo (nombre,anyo_apar,anyo_des, director, activo)
 	VALUES ('Encuentro5',2018,2021, 'Mari Cruz Sanz', 'NO');
-select * from equipo e ;
+select * from equipo e order by nombre;
