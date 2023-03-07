@@ -1,1 +1,1 @@
-{"id":"6ca97230-34e3-405e-9fb4-3ffbd970c82d","arguments":[],"weight":"0","visible":"true","input":"input.sql","output":"output.txt","timeout":"0","feedback":[]}
+{"id":"6ca97230-34e3-405e-9fb4-3ffbd970c82d","arguments":[],"weight":"0","visible":"true","input":"input.sql","output":"output.txt","timeout":"0","feedback":[{"message":"Es una relación n:m","weight":"0"}]}
