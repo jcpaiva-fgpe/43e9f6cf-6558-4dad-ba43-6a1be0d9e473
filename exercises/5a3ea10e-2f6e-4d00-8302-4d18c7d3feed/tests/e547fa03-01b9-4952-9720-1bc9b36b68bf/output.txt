@@ -1,0 +1,8 @@
+ficha|pais      |anyo_prof|
+-----+----------+---------+
+    2|ESPAÑA    |     2018|
+    3|Italia    |     2020|
+    3|Itinere   |     2022|
+ 2018|Encuentro |     2021|
+ 2021|InnovaFest|         |
+ 2022|Itinere   |         |
