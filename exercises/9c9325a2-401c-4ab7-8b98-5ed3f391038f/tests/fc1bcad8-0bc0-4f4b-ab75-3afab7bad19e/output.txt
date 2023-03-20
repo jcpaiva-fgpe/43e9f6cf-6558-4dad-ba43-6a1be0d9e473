@@ -1,0 +1,5 @@
+nombre    |anyo_apar|anyo_des|director      |activo|
+----------+---------+--------+--------------+------+
+Encuentro4|     2018|    2021|Mari Cruz Sanz|SI    |
+Encuentro5|     2018|    2021|Mari Cruz Sanz|NO    |
+InnovaFest|     2021|        |Chema Cenarro |      |
