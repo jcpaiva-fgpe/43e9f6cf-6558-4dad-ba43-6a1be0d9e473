@@ -1,6 +1,12 @@
- table_name | column_name |     data_type     | max_length | is_nullable | contype 
-------------+-------------+-------------------+------------+-------------+---------
- modules    | code        | integer           |         32 | NO          | p
- modules    | degree      | character         |          3 | NO          | p
- modules    | name        | character varying |        100 | YES         | 
-(3 rows)
+column_name  |data_type        |is_nullable|contype|
+-------------+-----------------+-----------+-------+
+vnulos       |integer          |NO         |       |
+vcandidaturas|integer          |NO         |       |
+vblanco      |integer          |NO         |       |
+seccion      |character varying|NO         |p      |
+mesa         |character        |NO         |p      |
+dmunicipal   |character varying|NO         |p      |
+cmunicipio   |character varying|NO         |p      |
+censo        |integer          |NO         |       |
+435          |2                |2          |B      |
+387          |1                |3          |A      |
