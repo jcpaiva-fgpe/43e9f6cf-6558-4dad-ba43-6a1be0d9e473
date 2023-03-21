@@ -1,0 +1,14 @@
+select table_name, column_name, data_type,
+    case when character_maximum_length is not null
+    then character_maximum_length
+    else numeric_precision end as max_length,
+    is_nullable, contype
+from information_schema.columns left join (
+    select contype, pgc.conname as constraint_name, ccu.column_name
+    from pg_constraint pgc
+    left join information_schema.constraint_column_usage ccu
+    on pgc.conname = ccu.constraint_name
+    where contype IN('u', 'p') and lower(table_name) = 'modules'
+    ) uniques using (column_name)
+where table_schema = 'public' and lower(table_name) = 'modules'
+order by column_name;
