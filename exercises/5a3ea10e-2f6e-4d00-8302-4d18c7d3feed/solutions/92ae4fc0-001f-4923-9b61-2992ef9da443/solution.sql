@@ -1,5 +1,5 @@
-CREATE TABLE candidaturas (
-	cCandidatura integer NOT NULL PRIMARY key check (cCandidatura > 150000),
+CREATE TABLE partidos (
+	cPartido integer NOT NULL PRIMARY key check (cPartido > 150000),
 	siglas varchar(30) NOT NULL,
 	denominacion varchar(100) NOT NULL,
 	votos integer,
@@ -11,5 +11,5 @@ CREATE TABLE candidato (
 	nombre varchar(30) NOT NULL,
 	apellidos varchar(50) NOT NULL,
 	posicionLista integer not null default 1,
-	cCandidatura integer references candidaturas (cCandidatura)
+	cPartido integer references candidaturas (cPartido)
 );
