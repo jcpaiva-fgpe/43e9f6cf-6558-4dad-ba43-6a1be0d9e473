@@ -1,0 +1,6 @@
+ table_name | column_name |     data_type     | max_length | is_nullable | contype 
+------------+-------------+-------------------+------------+-------------+---------
+ modules    | code        | integer           |         32 | NO          | p
+ modules    | degree      | character         |          3 | NO          | p
+ modules    | name        | character varying |        100 | YES         | 
+(3 rows)
