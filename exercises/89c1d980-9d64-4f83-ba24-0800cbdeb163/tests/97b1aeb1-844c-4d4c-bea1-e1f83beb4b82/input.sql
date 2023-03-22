@@ -1,2 +1,1 @@
-update candidaturas 
-	set escanyos = round(votos / 14474);
+select  * from candidaturas c where escanyos > 0 order by escanyos desc ;
