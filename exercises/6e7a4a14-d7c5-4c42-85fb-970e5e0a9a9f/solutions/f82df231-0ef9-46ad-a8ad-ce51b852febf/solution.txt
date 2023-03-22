@@ -1,6 +1,1 @@
-CREATE TABLE MODULES (
-    CODE INTEGER NOT NULL,
-    NAME VARCHAR(100),
-    DEGREE CHAR(3),
-    CONSTRAINT Modules_PK PRIMARY KEY(CODE, DEGREE)
-);
+ALTER TABLE votos_mesa ADD CONSTRAINT votos_mesa_pk PRIMARY KEY (cmunicipio,dmunicipal,seccion,mesa);
