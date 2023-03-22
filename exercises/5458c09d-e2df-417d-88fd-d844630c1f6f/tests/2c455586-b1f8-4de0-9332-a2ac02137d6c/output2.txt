@@ -1,0 +1,5 @@
+cmunicipio|nombre          |poblacion|mesas|censo|vblanco|vnulos|vcandidaturas|
+----------+----------------+---------+-----+-----+-------+------+-------------+
+101       |Inserción Válida|     1000|    2|  800|     20|     6|          710|
+901       |Santomera       |    16105|   17|10530|     55|    50|         7379|
+902       |Los Alcázares   |    15674|   15| 8246|     35|    45|         5156|
