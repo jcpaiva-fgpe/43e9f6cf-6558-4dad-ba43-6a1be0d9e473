@@ -1,1 +1,1 @@
-{"id":"c30b5087-4fca-432f-bb10-80f102c3154b","arguments":[],"weight":"0","visible":true,"input":"input1.sql","output":"output1.txt","timeout":0,"feedback":[]}
+{"id":"c30b5087-4fca-432f-bb10-80f102c3154b","arguments":[],"weight":"0","visible":"true","input":"input1.sql","output":"output1.txt","timeout":"0","feedback":[]}
