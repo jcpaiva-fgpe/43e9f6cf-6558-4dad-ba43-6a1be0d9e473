@@ -1,0 +1,8 @@
+ccandidatura|siglas      |denominacion                                |votos |escanyos|
+------------+------------+--------------------------------------------+------+--------+
+      150078|PP          |PARTIDO POPULAR                             |211849|      14|
+      150085|PSOE        |PARTIDO SOCIALISTA OBRERO ESPAÑOL           |212600|      14|
+      150018|Cs          |CIUDADANOS-PARTIDO DE LA CIUDADANÍA         | 78483|       5|
+      150104|VOX         |VOX                                         | 61998|       4|
+      150071|PODEMOS-EQUO|PODEMOS-EQUO                                | 36486|       2|
+      150042|MC-CCD      |COALICION MUNICIPALISTA MC-CCD-CIFA-PITP-UxA| 14605|       1|
