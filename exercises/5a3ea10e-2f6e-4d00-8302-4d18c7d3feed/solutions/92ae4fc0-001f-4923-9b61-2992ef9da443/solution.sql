@@ -11,5 +11,5 @@ CREATE TABLE candidato (
 	nombre varchar(30) NOT NULL,
 	apellidos varchar(50) NOT NULL,
 	posicionLista integer not null default 1,
-	cPartido integer references candidaturas (cPartido)
+	cPartido integer references partidos (cPartido)
 );
