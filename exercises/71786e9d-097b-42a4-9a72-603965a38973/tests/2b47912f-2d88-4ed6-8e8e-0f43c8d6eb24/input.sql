@@ -1,0 +1,1 @@
+select  * from candidaturas c where escanyos > 0 order by escanyos desc ;
