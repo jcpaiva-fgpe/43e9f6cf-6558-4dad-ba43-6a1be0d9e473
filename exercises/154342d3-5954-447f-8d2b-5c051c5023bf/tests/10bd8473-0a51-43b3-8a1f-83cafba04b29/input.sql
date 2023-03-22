@@ -1,0 +1,1 @@
+select * from municipios m where nombre < 'C' order by cmunicipio;
