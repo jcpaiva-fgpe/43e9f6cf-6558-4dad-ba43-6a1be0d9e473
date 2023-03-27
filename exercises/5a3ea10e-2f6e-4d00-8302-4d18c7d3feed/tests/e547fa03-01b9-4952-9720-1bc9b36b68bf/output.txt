@@ -1,7 +1,7 @@
 cpartido|siglas   |denominacion             |escanyos|
 --------+---------+-------------------------+--------+
-  150001|c3       |CIFP Carlos III          |        |
-  150002|PS       |Partido de las soluciones|       1|
   150001|12345678C|Pepa                     |       1|
   150001|12345678D|Juan                     |       2|
+  150001|c3       |CIFP Carlos III          |        |
+  150002|PS       |Partido de las soluciones|       1|
   
