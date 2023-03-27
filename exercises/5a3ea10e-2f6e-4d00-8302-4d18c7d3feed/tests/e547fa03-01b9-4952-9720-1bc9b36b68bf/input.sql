@@ -19,4 +19,4 @@ INSERT INTO candidato (dni,nombre,apellidos,posicionLista,cpartido)
 
 select cPartido,siglas,denominacion,escanyos from partidos
 union
-select cpartido, dni,nombre,posicionLista from candidato;
+select cpartido, dni,nombre,posicionLista from candidato order by 1;
