@@ -1,7 +1,7 @@
  first_name | Nuevo Salario 
 ------------+---------------
+ Kevin      |      6380.000
+ Shanta     |      7150.000
+ Payam      |      8690.000
  Matthew    |      8800.000
  Adam       |      9020.000
- Payam      |      8690.000
- Shanta     |      7150.000
- Kevin      |      6380.000
