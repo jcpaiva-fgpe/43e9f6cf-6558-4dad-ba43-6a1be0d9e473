@@ -1,1 +1,1 @@
-SELECT DISTINCT JOB_ID FROM employees;
+select first_name, last_name, hire_date from employees where job_id='IT_PROG' AND hire_date >= '1998-01-01';
