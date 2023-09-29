@@ -1,21 +1,7 @@
-   job_id   
-------------
- SH_CLERK
- AD_VP
- SA_MAN
- PU_MAN
- IT_PROG
- ST_CLERK
- FI_MGR
- PU_CLERK
- HR_REP
- ST_MAN
- MK_MAN
- AC_MGR
- SA_REP
- AD_ASST
- PR_REP
- MK_REP
- AD_PRES
- FI_ACCOUNT
- AC_ACCOUNT
+ first_name | Nuevo Salario 
+------------+---------------
+ Matthew    |      8800.000
+ Adam       |      9020.000
+ Payam      |      8690.000
+ Shanta     |      7150.000
+ Kevin      |      6380.000
