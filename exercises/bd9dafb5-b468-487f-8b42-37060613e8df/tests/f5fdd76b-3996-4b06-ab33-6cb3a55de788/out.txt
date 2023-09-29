@@ -1,21 +1,7 @@
-   job_id   
-------------
- AC_ACCOUNT
- AC_MGR
- AD_ASST
- AD_PRES
- AD_VP
- FI_ACCOUNT
- FI_MGR
- HR_REP
- IT_PROG
- MK_MAN
- MK_REP
- PR_REP
- PU_CLERK
- PU_MAN
- SA_MAN
- SA_REP
- SH_CLERK
- ST_CLERK
- ST_MAN
+ first_name | last_name  | department_id | salario incrementado 
+------------+------------+---------------+----------------------
+ Karen      | Colmenares |            30 |             3000.000
+ Guy        | Himuro     |            30 |             3120.000
+ Sigal      | Tobias     |            30 |             3360.000
+ Shelli     | Baida      |            30 |             3480.000
+ Alexander  | Khoo       |            30 |             3720.000
